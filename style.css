@@ -1,6 +1,109 @@
 body {
     margin: 0;
     padding: 0;
-    height: 100vh;
-    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    min-height: 100vh;
+    font-family: "Montserrat", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: #000000;
+}
+
+/* HEADER */
+body>header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* NAVBAR */
+.navbar>ul {
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+
+.navbar>ul>li {
+    padding: 10px;
+}
+
+.navbar>ul>li>a {
+    color: #000000;
+}
+
+.navbar>ul>li:hover {
+    background-color: #000000;
+    opacity: 1;
+}
+
+.navbar>ul>li:hover>a {
+    color: #ffffff;
+}
+
+.navbutton {
+    color: black;
+    text-decoration: none;
+    padding: 12px;
+}
+
+/* HOME PAGE */
+.my-info {
+    color: #ffffff;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    height: 90vh;
+}
+
+.my-info>h1 {
+    font-size: 3em;
+    margin: 0;
+    text-align: center;
+}
+
+.my-info>a {
+    text-decoration: none;
+    color: #ffffff;
+    ;
+}
+
+.my-info>a:hover {
+    color: #6AAFE6;
+}
+
+.my-socials>ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.my-socials>ul>li {
+    /* border: 1px solid black; */
+    margin: 10px;
+}
+
+.my-socials>ul>li>a {
+    color: #ffffff;
+}
+
+.my-socials>ul>li>a:hover {
+    color: #6AAFE6;
+}
+
+.socials-icon {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
+
+/* FOOTER */
+footer {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
